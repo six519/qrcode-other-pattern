@@ -3,7 +3,7 @@ qrcode-other-pattern
 
 .. image:: example.png
 
-This `Segno <https://github.com/heuer/segno>`_ plugin can change the QR code's black modules into your own shapes instead of squares.
+This `Segno <https://github.com/heuer/segno>`_ plugin can change the QR code's black modules into custom shapes instead of squares.
 
 Installing Through PyPi
 =======================
