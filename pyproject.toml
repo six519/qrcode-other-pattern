@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qrcode-other-pattern"
+version = "0.0.1"
+description = ""
+readme = "README.rst"
+authors = [{ name = "Ferdinand Silva", email = "ferdinandsilva@ferdinandsilva.com" }]
+requires-python = ">=3.6"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+  "segno>=1.6.1",
+  "Pillow>=10.4.0",
+]
+
+[project.entry-points."segno.plugin.converter"]
+other_pattern = "segno_plugin:write_other_pattern"
+
+[project.urls]
+Home = "https://github.com/six519/qrcode-other-pattern"
