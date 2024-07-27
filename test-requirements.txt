@@ -1,0 +1,5 @@
+build==1.2.1
+pillow==10.4.0
+pyzbar==0.1.9
+segno==1.6.1
+zbarlight==3.0
