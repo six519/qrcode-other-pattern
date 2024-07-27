@@ -20,8 +20,8 @@ Installing Through PyPi
 
     pip3 install qrcode-other-pattern
 
-Using the library
-=================
+Using the plugin
+================
 ::
 
     import segno
