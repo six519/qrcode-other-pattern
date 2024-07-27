@@ -1,6 +1,8 @@
 qrcode-other-pattern
 ====================
 
+.. image:: https://github.com/six519/qrcode-other-pattern/actions/workflows/python-app.yml/badge.svg
+
 .. image:: example.png
 
 This `Segno <https://github.com/heuer/segno>`_ plugin can change the QR code's black modules into custom shapes instead of squares.
