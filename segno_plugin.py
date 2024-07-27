@@ -53,11 +53,12 @@ def write_other_pattern(
         # Replace the custom shape's color
         img_data = pattern.getdata()
         new_data = []
+        rgb_range = list(range(0, 256))
         for item in img_data:
             if (
-                item[0] in list(range(0, 256)) 
-                and item[1] in list(range(0, 256)) 
-                and item[2] in list(range(0, 256)) 
+                item[0] in rgb_range 
+                and item[1] in rgb_range 
+                and item[2] in rgb_range 
                 and item[3] > 0
             ):
                 # Replace the color with dark value

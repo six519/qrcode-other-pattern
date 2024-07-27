@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "qrcode-other-pattern"
-version = "0.0.2"
+version = "0.0.3"
 description = ""
 readme = "README.rst"
 authors = [{ name = "Ferdinand Silva", email = "ferdinandsilva@ferdinandsilva.com" }]
@@ -26,9 +26,3 @@ other_pattern = "segno_plugin:write_other_pattern"
 
 [project.urls]
 Home = "https://github.com/six519/qrcode-other-pattern"
-
-[project.optional-dependencies]
-test = ["unittest"]
-
-[tool.setuptools.packages.find]
-where = ["."]
