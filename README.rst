@@ -25,5 +25,11 @@ Using the library
     import segno
 
     qr_code = segno.make('https://ferdinandsilva.com')
-    new_pattern = qr_code.to_other_pattern(scale=10, border=2, file_pattern='pattern.png', dark='orange', light='blue')
+    new_pattern = qr_code.to_other_pattern(
+        scale=10, 
+        border=2, 
+        file_pattern='pattern.png', 
+        dark='orange', 
+        light='blue',
+    )
     new_pattern.save('example.png')

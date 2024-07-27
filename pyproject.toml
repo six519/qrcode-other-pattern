@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "qrcode-other-pattern"
-version = "0.0.1"
+version = "0.0.2"
 description = ""
 readme = "README.rst"
 authors = [{ name = "Ferdinand Silva", email = "ferdinandsilva@ferdinandsilva.com" }]
